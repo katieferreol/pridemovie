@@ -1,0 +1,108 @@
+body {
+  background-image: url("rainbow.jpg");
+  margin: 0;
+  padding: 0;
+}
+
+ul.header {
+  column-count:3;
+  column-gap: 0px;
+  background-color: black;
+  margin-bottom: 2em;
+  text-align: center;
+  margin-top: 0;
+  padding: 0;
+}
+
+div.contact {
+  padding: 40px;
+  padding-left: 250px;
+  padding-right: 250px;
+
+}
+a.select:link, a.select:visited {
+    font-size: 30px;
+    font-family: "Courier", monospace;
+    color: white;
+    background-color: black;
+    padding: 15px 32px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+a.select:hover, a.selecta {
+   font-size: 30px;
+   font-family: "Courier", monospace;
+   background-color: yellow;
+   padding: 15px 32px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: black;
+   text-align: center;
+   text-decoration: none;
+}
+
+h2.title {
+  font-size: 150px;
+  line-height: 0pt;
+  font-family: "Staatliches";
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+p.description1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 0px;
+  letter-spacing: .45em;
+  line-height: 0px;
+}
+
+p.description2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: .45em;
+  line-height: 0px;
+  margin-bottom: 100px;
+}
+
+img.phone {
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 130px;
+  right: 160px;
+  transform: rotate(20deg);
+}
+
+img.sparkle {
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 130px;
+  left: 250px;
+  transform: rotate(-20deg);
+}
+
+div.details {
+  font-family: "Courier", monospace;
+  font-size: 25px;
+  float: left;
+  line-height: 10px;
+}
+
+div.form {
+  column-count:2;
+  font-family: "Courier", monospace;
+  font-size: 25px;
+  float: right;
+}
