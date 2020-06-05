@@ -1,5 +1,6 @@
 body {
-  background-image: url("bgpam.jpg");
+  background-color: #b0dff1; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #87ceea, #f9fdff);
   margin: 0;
   padding: 0;
   padding-bottom: 50px;

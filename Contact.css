@@ -1,5 +1,6 @@
 body {
-  background-image: url("rainbow.jpg");
+  background-color: #ff8383; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #ff8383 , #f8c583, #b1ee8a, #8fe7bd, #9a96eb);
   margin: 0;
   padding: 0;
 }

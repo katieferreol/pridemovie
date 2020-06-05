@@ -1,5 +1,6 @@
 body {
-  background-image: url("bgjoonha.jpg");
+  background-color: #ffef9a; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #ffe248, #fefef6);
   margin: 0;
   padding: 0;
   padding-bottom: 50px;

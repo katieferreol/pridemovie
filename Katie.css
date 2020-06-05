@@ -1,5 +1,6 @@
 body {
-  background-image: url("bgkt.jpg");
+  background-color: #f3b3bb; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #ffb6c1, #f8f9fe);
   margin: 0;
   padding: 0;
   padding-bottom: 50px;
