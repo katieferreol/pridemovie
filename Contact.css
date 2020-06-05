@@ -79,15 +79,13 @@ p.description2 {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   letter-spacing: .45em;
-  line-height: 0px;
-  margin-bottom: 100px;
+  line-height: 0em;
+  margin-bottom: 3em;
   margin-top: 0em;
-  margin-bottom:2em;
   letter-spacing: .45em;
 }
 
 img.phone {
-  height: 300px;
   display: block;
   margin: 0 auto;
   position: absolute;
@@ -97,7 +95,6 @@ img.phone {
 }
 
 img.sparkle {
-  height: 250px;
   display: block;
   margin: 0 auto;
   position: absolute;
@@ -108,9 +105,8 @@ img.sparkle {
 
 div.details {
   font-family: "Courier", monospace;
-  font-size: 25px;
   float: left;
-  line-height: 10px;
+  line-height: 1em;
 }
 
 div.form {
