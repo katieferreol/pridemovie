@@ -64,8 +64,6 @@ div.title {
   padding: 0.02em;
   -webkit-text-fill-color: black;
   -webkit-text-stroke-width: .1px;
-  margin-left: 2.5em;
-  margin-right: 2.5em;
 }
 
 /* Got rainbow transition from this site: https://dev.to/tchaflich/today-i-learned-how-to-animate-a-text-gradient-in-css-and-javascript-2ehp */
