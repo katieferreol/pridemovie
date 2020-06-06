@@ -92,6 +92,12 @@ p.description {
   font-family: "Courier", monospace;
 }
 
+img.flag {
+  float: right;
+  padding: 1%;
+  line-height: .5em;
+  cursor: pointer;
+}
 
 h2.screen {
   margin-bottom: .25em;

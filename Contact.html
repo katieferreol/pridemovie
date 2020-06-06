@@ -22,6 +22,12 @@
 </ul>
 </div>
 
+<!-- TIME -->
+<div class="time">
+  <p class="time" style="font-size:2vw;" id="clockbutton" onclick="time()">Click here to see time!</p>
+  <span class="time" id="time" style="font-size:2vw;" ></span>
+</div>
+
 <!-- CONTACT -->
 <div class="contact">
   <h2 class="title" style="font-size:10vw;"><b>CONTACT</b></h2>
@@ -36,14 +42,14 @@
       <p style="font-size: 1.5vw;">Email: nyuad@nyu.edu</p>
     </div>
     <div class="form" align="right">
-      <form action="/action_page.php">
+      <form>
           <label for="fname" style="font-size: 1.5vw;">NAME</label><br>
           <input type="text" style="width: 80%;" style="height: 20%"><br>
           <label for="lname" style="font-size: 1.5vw;">EMAIL</label><br>
           <input type="text" style="width: 80%;" style="height: 20%"><br><br>
           <label for="fname" style="font-size: 1.5vw;">MESSAGE</label><br>
           <input type="text" style="width: 80%;" style="height: 20%"><br>
-          <input type="submit" value="Submit">
+          <input type="submit" value="Submit" id="submit">
       </form>
     </div>
   </div>

@@ -1,15 +1,19 @@
-var modal = document.getElementById("myModal");
+var wrong = document.getElementById("wrong1");
+wrong.onclick = function wrong() {
+    alert("Wrong. Sorry!");
+  }
 
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
+var wrong = document.getElementById("wrong2");
+wrong.onclick = function wrong() {
+    alert("Wrong. Sorry!");
+  }
 
-var span = document.getElementsByClassName("close")[0];
+  var wrong = document.getElementById("wrong3");
+  wrong.onclick = function wrong() {
+      alert("Wrong. Sorry!");
+    }
 
-span.onclick = function() {
-  modal.style.display = "none";
-}
+var correct = document.getElementById("correct");
+correct.onclick = function correct() {
+    alert("Correct!");
+  }
