@@ -5,21 +5,6 @@ body {
   padding: 0;
 }
 
-div.time {
-  background-color: black;
-  position: fixed;
-  color: white;
-  font-family: "Staatliches";
-  border-radius: 10%;
-  padding: 1%;
-  line-height: .5vw;
-  text-align: center;
-  padding-top: .3vw;
-  padding-bottom: 0;
-  border: solid white .3vw;
-  cursor: pointer;
-}
-
 ul {
   width: 100%;
   column-count:3;
@@ -39,8 +24,10 @@ li {
   width: 100%;
 }
 
-div.video {
-  padding: 5%;
+a.select:hover, a.select:active {
+   background-color: yellow;
+   color: black;
+   text-align: center;
 }
 
 a.select:link, a.select:visited {
@@ -65,6 +52,26 @@ a.select:hover, a.selecta {
   color: black;
   text-align: center;
   text-decoration: none;
+}
+
+div.time {
+  background-color: black;
+  position: fixed;
+  color: white;
+  font-family: "Staatliches";
+  border-radius: 10%;
+  padding: 1%;
+  line-height: .5vw;
+  text-align: center;
+  padding-top: .3vw;
+  padding-bottom: 0;
+  border: solid white .3vw;
+  cursor: pointer;
+}
+
+div.video {
+  padding: 5%;
+  margin-bottom: 1vw;
 }
 
 div.title {
@@ -109,37 +116,6 @@ h2.title2 {
   margin-bottom: 5vw;
 }
 
-h2.cast {
-  margin-bottom: .25vw;
-  font-family: "Staatliches";
-  color: white;
-  margin-top: 0vw;
-}
-
-div.video {
-  margin-bottom: 1vw;
-}
-
-video.video {
-  float: left;
-  margin-right: 5vw;
-  margin-top: 1vw;
-  margin-bottom: 3vw;
-  border: solid black .5vw;
-  padding: .25vw;
-}
-
-p.sponsored {
-  text-align: center;
-  font-family: "Times New Roman", Times, serif;
-  line-height: .5vw;
-}
-
-footer.sm {
-  text-align: center;
-  padding-top: 2.5%;
-}
-
 p.intro {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
@@ -147,43 +123,6 @@ p.intro {
   margin-bottom:4vw;
   letter-spacing: .45vw;
 }
-
-div.column1:hover img {
-  padding: 0;
-  border: solid white .5vw;
-  transition: 0.3s;
-  opacity: 0.7;
-  filter: grayscale(100%);
-  max-width: 100%;
-  display: block;
-}
-
-p.description {
-  text-align: center;
-  margin-bottom:2vw;
-  margin-top: 3vw;
-  font-family: "Courier", monospace;
-}
-
-p.opacity {
-  color: white;
-  font-style: italic;
-}
-
-p.black {
-  color: white;
-  font-family: "Courier", monospace;
-  margin-bottom: 0;
-}
-
-p.review {
-  text-align: center;
-  font-style: italic;
-  font-weight: bold;
-  margin-bottom:2vw;
-  font-family: "Courier", monospace;
-}
-
 
 img.flag {
   margin: 0 auto;
@@ -203,6 +142,31 @@ img.sparkle1 {
   max-height: 100%
 }
 
+video.video {
+  float: left;
+  margin-right: 5vw;
+  margin-top: 1vw;
+  margin-bottom: 3vw;
+  border: solid black .5vw;
+  padding: .25vw;
+}
+
+
+p.description {
+  text-align: center;
+  margin-bottom:2vw;
+  margin-top: 3vw;
+  font-family: "Courier", monospace;
+}
+
+p.review {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom:2vw;
+  font-family: "Courier", monospace;
+}
+
 img.star {
   max-width: 100%;
   display: block;
@@ -210,13 +174,48 @@ img.star {
   margin-right: auto;
 }
 
-div {
-  text-align: center;
-}
-
 div.cast {
   background-color: black;
   padding: 5%;
+}
+
+h2.cast {
+  margin-bottom: .25vw;
+  font-family: "Staatliches";
+  color: white;
+  margin-top: 0vw;
+}
+
+div.column1:hover img {
+  padding: 0;
+  border: solid white .5vw;
+  transition: 0.3s;
+  opacity: 0.7;
+  filter: grayscale(100%);
+  max-width: 100%;
+  display: block;
+}
+
+p.opacity {
+  color: white;
+  font-style: italic;
+}
+
+p.black {
+  color: white;
+  font-family: "Courier", monospace;
+  margin-bottom: 0;
+}
+
+p.sponsored {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  line-height: .5vw;
+}
+
+footer.sm {
+  text-align: center;
+  padding-top: 2.5%;
 }
 
 div.column1 {
@@ -235,12 +234,6 @@ div.row::after {
   content: "";
   clear: both;
   display: table;
-}
-
-a.select:hover, a.select:active {
-   background-color: yellow;
-   color: black;
-   text-align: center;
 }
 
 button:hover {
@@ -265,4 +258,8 @@ button {
 a.sm:hover {
   transition: 0.3s;
   opacity: 0.7;
+}
+
+div {
+  text-align: center;
 }
