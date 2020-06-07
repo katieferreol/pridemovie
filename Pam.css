@@ -55,24 +55,24 @@ img.sparkle1 {
   display: block;
   margin: 0 auto;
   position: absolute;
-  top: 15%;
-  left: 25%;
+  top: 8vw;
+  left: 25vw;
 }
 
 img.sparkle2 {
   display: block;
   margin: 0 auto;
   position: absolute;
-  top: 15%;
-  left: 40%;
+  top: 8vw;
+  left: 40vw;
 }
 
 img.sparkle3 {
   display: block;
   margin: 0 auto;
   position: absolute;
-  top: 15%;
-  left: 60%;
+  top: 8vw;
+  left: 60vw;
 }
 
 div.main {
@@ -84,7 +84,7 @@ div.main {
 img.head {
   float: left;
   margin-right: 3%;
-  border: solid black 2vh;
+  border: solid black 2vw;
 }
 
 p.description {
@@ -95,12 +95,11 @@ p.description {
 img.flag {
   float: right;
   padding: 1%;
-  line-height: .5em;
   cursor: pointer;
 }
 
 h2.screen {
-  margin-bottom: .25em;
+  margin-bottom: 1vw;
   font-family: "Staatliches";
   color: white;
   margin-top: 0em;
@@ -114,12 +113,13 @@ div.screen {
 
 div.alpha {
     font-family: "Bebas Neue", sans-serif;
-    line-height: 2em;
+    line-height: 3vw;
     text-align: center;
     position: absolute;
-    top: 8.5%;
+    top: 4vw;
+    left: -5vw;
     background-color: black;
-    width: 13em;
+    width: 15vw;
     color: white;
 }
 
@@ -143,16 +143,16 @@ a.alpha:hover, a.alphaa {
 
 div.column1 {
   float: left;
-  width: 33.33%;
+  width: 50%;
   padding: 0;
 }
 
 div.column1 img {
-  border: solid white 1vh;
+  border: solid white 1vw;
 }
 
 div.column1:hover img {
-  border: solid white 1vh;
+  border: solid white 1vw;
   cursor: pointer;
   transition: 0.3s;
   opacity: 0.7;

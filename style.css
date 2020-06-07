@@ -12,11 +12,11 @@ div.time {
   font-family: "Staatliches";
   border-radius: 10%;
   padding: 1%;
-  line-height: .5em;
+  line-height: .5vw;
   text-align: center;
-  padding-top: .3em;
+  padding-top: .3vw;
   padding-bottom: 0;
-  border: solid white .3em;
+  border: solid white .3vw;
   cursor: pointer;
 }
 
@@ -72,9 +72,9 @@ div.title {
   font-family: "Staatliches";
   text-align: center;
   top: 0;
-  padding: 0.02em;
+  padding: 0.02vw;
   -webkit-text-fill-color: black;
-  -webkit-text-stroke-width: .01em;
+  -webkit-text-stroke-width: .01vw;
 }
 
 /* Got rainbow transition from this site: https://dev.to/tchaflich/today-i-learned-how-to-animate-a-text-gradient-in-css-and-javascript-2ehp */
@@ -83,7 +83,7 @@ div.title:hover {
   font-family: "Staatliches";
   text-align: center;
   top: 0;
-  padding: 0.02em;
+  padding: 0.02vw;
   background: linear-gradient(to right, red, orange, yellow, green, blue, purple);
   background-clip: text;
   text-fill-color: transparent;
@@ -91,7 +91,7 @@ div.title:hover {
   -webkit-text-fill-color: transparent;
   background-size: 200% 100%;
   animation: rainbow 5s linear infinite;
-  -webkit-text-stroke-width: .01em;
+  -webkit-text-stroke-width: .01vw;
 }
 
 @keyframes rainbow {
@@ -102,37 +102,37 @@ div.title:hover {
 /* End of animation */
 
 h2.title1 {
-  margin-top: .7em;
+  margin-top: 7vw;
 }
 
 h2.title2 {
-  margin-bottom: .5em;
+  margin-bottom: 5vw;
 }
 
 h2.cast {
-  margin-bottom: .25em;
+  margin-bottom: .25vw;
   font-family: "Staatliches";
   color: white;
-  margin-top: 0em;
+  margin-top: 0vw;
 }
 
 div.video {
-  margin-bottom: 1em;
+  margin-bottom: 1vw;
 }
 
 video.video {
   float: left;
-  margin-right: 2em;
-  margin-top: 1em;
-  margin-bottom: 3em;
-  border: solid black .5em;
-  padding: .25em;
+  margin-right: 5vw;
+  margin-top: 1vw;
+  margin-bottom: 3vw;
+  border: solid black .5vw;
+  padding: .25vw;
 }
 
 p.sponsored {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  line-height: .5em;
+  line-height: .5vw;
 }
 
 footer.sm {
@@ -143,14 +143,14 @@ footer.sm {
 p.intro {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  margin-top: 0em;
-  margin-bottom:2em;
-  letter-spacing: .45em;
+  margin-top: 0;
+  margin-bottom:4vw;
+  letter-spacing: .45vw;
 }
 
 div.column1:hover img {
   padding: 0;
-  border: solid white .5em;
+  border: solid white .5vw;
   transition: 0.3s;
   opacity: 0.7;
   filter: grayscale(100%);
@@ -160,8 +160,8 @@ div.column1:hover img {
 
 p.description {
   text-align: center;
-  margin-bottom:2em;
-  margin-top: 3em;
+  margin-bottom:2vw;
+  margin-top: 3vw;
   font-family: "Courier", monospace;
 }
 
@@ -180,7 +180,7 @@ p.review {
   text-align: center;
   font-style: italic;
   font-weight: bold;
-  margin-bottom:1em;
+  margin-bottom:2vw;
   font-family: "Courier", monospace;
 }
 
@@ -188,8 +188,8 @@ p.review {
 img.flag {
   margin: 0 auto;
   position: absolute;
-  top: 3em;
-  right: 22em;
+  top: 5vw;
+  right: 26vw;
   max-width: 100%;
   max-height: 100%
 }
@@ -197,8 +197,8 @@ img.flag {
 img.sparkle1 {
   margin: 0 auto;
   position: absolute;
-  top: 7em;
-  left: 22em;
+  top: 7vw;
+  left: 23vw;
   max-width: 100%;
   max-height: 100%
 }
@@ -226,7 +226,7 @@ div.column1 {
 }
 
 div.column1 img {
-  border: solid white .5em;
+  border: solid white .5vw;
   display: block;
   max-width: 100%;
 }
@@ -258,7 +258,7 @@ button {
   color: black;
   margin: 2% 1%;
   cursor: pointer;
-  border-radius: 15em;
+  border-radius: 15vw;
   background-color: white;
 }
 

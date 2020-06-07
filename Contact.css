@@ -12,11 +12,11 @@ div.time {
   font-family: "Staatliches";
   border-radius: 10%;
   padding: 1%;
-  line-height: .5em;
+  line-height: .5vw;
   text-align: center;
-  padding-top: .3em;
+  padding-top: .3vw;
   padding-bottom: 0;
-  border: solid white .3em;
+  border: solid white .3vw;
   cursor: pointer;
 }
 
@@ -46,66 +46,60 @@ div.contact {
 
 }
 a.select:link, a.select:visited {
-    font-size: 30px;
-    font-family: "Courier", monospace;
-    color: white;
-    background-color: black;
-    padding: 15px 32px;
-    text-align: center;
-    transition-duration: 0.4s;
-    text-decoration: none;
-    font-size: 30px;
-    cursor: pointer;
-    display: inline-block;
+  font-family: "Courier", monospace;
+  color: white;
+  background-color: black;
+  padding: 3% 15%;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
 }
 
 a.select:hover, a.selecta {
-   font-size: 30px;
-   font-family: "Courier", monospace;
-   background-color: yellow;
-   padding: 15px 32px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   color: black;
-   text-align: center;
-   text-decoration: none;
+  font-family: "Courier", monospace;
+  background-color: yellow;
+  padding: 3% 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+  text-decoration: none;
 }
 
 h2.title {
-  line-height: 0em;
+  line-height: 0;
   font-family: "Staatliches";
   text-align: center;
-  margin-bottom: .5em;
-  margin-top: .8em;
+  margin-bottom: 6vw;
+  margin-top: 7vw;
 }
 
 p.description1 {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  padding-top: 0px;
-  letter-spacing: .45em;
+  padding-top: 0;
+  letter-spacing: .45vw;
   line-height: 0;
-  margin-top: 1em;
-  margin-bottom:1em;
 }
 
 p.description2 {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  letter-spacing: .45em;
-  line-height: 0em;
-  margin-bottom: 3em;
-  margin-top: 0em;
-  letter-spacing: .45em;
+  letter-spacing: .45vw;
+  line-height: 0;
+  margin-bottom: 3vw;
+  margin-top: 1vw;
 }
 
 img.phone {
   display: block;
   margin: 0 auto;
   position: absolute;
-  top: 130px;
-  right: 160px;
+  top: 8vw;
+  right: 12vw;
   transform: rotate(20deg);
 }
 
@@ -113,20 +107,20 @@ img.sparkle {
   display: block;
   margin: 0 auto;
   position: absolute;
-  top: 130px;
-  left: 250px;
+  top: 8vw;
+  left: 15vw;
   transform: rotate(-20deg);
 }
 
 div.details {
   font-family: "Courier", monospace;
   float: left;
-  line-height: 1em;
+  line-height: 2vw;
 }
 
 div.form {
   column-count:2;
   font-family: "Courier", monospace;
-  font-size: 25px;
   float: right;
+  line-height: 2vw;
 }
