@@ -54,21 +54,6 @@ a.select:hover, a.selecta {
   text-decoration: none;
 }
 
-div.time {
-  background-color: black;
-  position: fixed;
-  color: white;
-  font-family: "Staatliches";
-  border-radius: 10%;
-  padding: 1%;
-  line-height: .5vw;
-  text-align: center;
-  padding-top: .3vw;
-  padding-bottom: 0;
-  border: solid white .3vw;
-  cursor: pointer;
-}
-
 div.video {
   padding: 5%;
   margin-bottom: 1vw;
